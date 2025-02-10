@@ -1,0 +1,18 @@
+﻿@model List<User>
+
+
+    <table>
+    <tr>
+        <td>Name</td>
+        <td>Image</td>
+        </tr>
+    @foreach(var user in Model)
+    {
+        <tr>
+            <td>@user.UserName</td>
+            <td>
+                <img src="~/images/@user.UserImage" />
+            </td>
+        </tr>
+    }
+</table>

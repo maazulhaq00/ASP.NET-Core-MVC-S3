@@ -1,0 +1,30 @@
+﻿@model Student
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+ <h3>Do you want to Delete this student?</h3>
+<table class="table">
+    <tr>
+        <th scope="row">Student Id</th>
+        <td>@Model.StudentId</td>
+    </tr>
+    <tr>
+        <th scope="row">Student Name</th>
+        <td>@Model.StudentName</td>
+    </tr>
+    <tr>
+        <th scope="row">Student Age</th>
+        <td>@Model.StudentAge</td>
+    </tr>
+    <tr>
+        <th scope="row">Student Email</th>
+        <td>@Model.StudentEmail</td>
+    </tr>
+</table>
+<form method="post" asp-action="DeleteStudentConfirmed">
+    <input type="hidden" name="id" value="@Model.StudentId" />
+    <button type="submit" class="btn btn-danger" >DELETE</button>
+</form>
+<a asp-action="Index" class="btn btn-dark">Back to List</a>

@@ -1,0 +1,25 @@
+﻿@model Doctor
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post">
+    <label asp-for="DoctorName"></label>
+    <input asp-for="DoctorName" />
+    <span asp-validation-for="DoctorName"></span>
+    <br />
+    <label asp-for="DoctorEmail"></label>
+    <input asp-for="DoctorEmail" />
+    <span asp-validation-for="DoctorEmail"></span>
+    <br />
+    <label asp-for="DoctorSalary"></label>
+    <input asp-for="DoctorSalary" />
+    <span asp-validation-for="DoctorSalary"></span>
+    <br />
+    <label asp-for="DoctorSpecialization"></label>
+    <input asp-for="DoctorSpecialization" />
+    <span asp-validation-for="DoctorSpecialization"></span>
+    <br />
+    <button type="submit">Add Doctor</button>
+</form>

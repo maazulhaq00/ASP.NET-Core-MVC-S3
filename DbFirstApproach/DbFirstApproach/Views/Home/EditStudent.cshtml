@@ -1,0 +1,29 @@
+﻿@model Student
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Edit Student</h1>
+
+<form method="post" >
+    <input type="hidden" asp-for="StudentId" />
+    <div class="form-floating mb-3">
+        <input type="text" asp-for="StudentName" class="form-control" id="name" placeholder="name@example.com">
+        <label for="name" asp-for="StudentName"></label>
+        <span asp-validation-for="StudentName" style="color:red"></span>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="number" asp-for="StudentAge" class="form-control" id="age" placeholder="name@example.com">
+        <label for="age" asp-for="StudentAge"></label>
+        <span asp-validation-for="StudentAge" style="color:red"></span>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="email" asp-for="StudentEmail" class="form-control" id="email" placeholder="name@example.com">
+        <label for="email" asp-for="StudentEmail"></label>
+        <span asp-validation-for="StudentEmail" style="color:red"></span>
+    </div>
+
+    <button type="submit" class="btn btn-dark">Update</button>
+
+</form>

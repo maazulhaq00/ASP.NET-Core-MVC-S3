@@ -1,0 +1,62 @@
+﻿@model List<Student>;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (TempData["insert_success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Succsess!</strong> @TempData["insert_success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+@if (TempData["update_success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Succsess!</strong> @TempData["update_success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+@if (TempData["delete_success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Succsess!</strong> @TempData["delete_success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<h1>Students</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Email</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var student in Model)
+        {
+                    <tr>
+                        <th scope="row">@student.StudentId</th>
+                <td>@student.StudentName</td>
+                <td>@student.StudentAge</td>
+                <td>@student.StudentEmail</td>
+                <td>
+                    <a asp-action="EditStudent" asp-route-id="@student.StudentId">
+                        Edit
+                    </a> | 
+                    <a asp-action="DeleteStudent" asp-route-id="@student.StudentId">
+                        Delete
+                    </a>
+
+                </td>
+                    </tr>
+        }
+
+    </tbody>
+</table>

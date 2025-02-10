@@ -1,0 +1,15 @@
+CREATE DATABASE SchoolMS;
+
+USE SchoolMS;
+
+CREATE TABLE Students (
+	StudentId INT PRIMARY KEY IDENTITY,
+	StudentName VARCHAR(255) NOT NULL,
+	StudentAge INT NOT NULL,
+	StudentEmail VARCHAR(255) NOT NULL,
+);
+
+INSERT INTO Students VALUES(1, 'Maaz Ul Haq', 22, 'maaz@gmail.com');
+INSERT INTO Students VALUES(2, 'Muhammad Saad', 21, 'saad@gmail.com');
+INSERT INTO Students VALUES(3, 'Sarah Ansari', 21, 'sarah@gmail.com');
+INSERT INTO Students VALUES(4, 'Muhammad Ahmed', 21, 'ahmed@gmail.com');

@@ -1,0 +1,45 @@
+﻿@model EcommLogin.Models.User
+
+@{
+    ViewData["Title"] = "Login";
+}
+@if (TempData["register_success"] != null)
+{
+    <p style="color: green">@TempData["register_success"]</p>
+}
+@if (ViewBag.LoginFailed != null)
+{
+    <p style="color: red">@ViewBag.LoginFailed</p>
+}
+
+<h1>Login</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserEmail" class="control-label"></label>
+                <input asp-for="UserEmail" class="form-control" />
+                <span asp-validation-for="UserEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserPassword" class="control-label"></label>
+                <input type="password" asp-for="UserPassword" class="form-control" />
+                <span asp-validation-for="UserPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+            <p>Donot have an account? <a asp-action="Register">Register</a></p>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
