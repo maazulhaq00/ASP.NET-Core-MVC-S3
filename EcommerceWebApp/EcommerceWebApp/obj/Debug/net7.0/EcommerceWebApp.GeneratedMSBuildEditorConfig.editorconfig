@@ -9,41 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EcommerceWebApp
 build_property.RootNamespace = EcommerceWebApp
-build_property.ProjectDir = Z:\Semester 03\ASP.NET CORE MVC\Projects\2309C1\EcommerceWebApp\EcommerceWebApp\
+build_property.ProjectDir = Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = Z:\Semester 03\ASP.NET CORE MVC\Projects\2309C1\EcommerceWebApp\EcommerceWebApp
+build_property.MSBuildProjectDirectory = Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[Z:/Semester 03/ASP.NET CORE MVC/Projects/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Home/Index.cshtml]
+[Z:/Semester 03/ASP.NET CORE MVC/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Semester 03/ASP.NET CORE MVC/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Semester 03/ASP.NET CORE MVC/Projects/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Home/Privacy.cshtml]
+[Z:/Semester 03/ASP.NET CORE MVC/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Semester 03/ASP.NET CORE MVC/Projects/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Shared/Error.cshtml]
+[Z:/Semester 03/ASP.NET CORE MVC/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Semester 03/ASP.NET CORE MVC/Projects/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Shared/_LayoutAdmin.cshtml]
+[Z:/Semester 03/ASP.NET CORE MVC/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Semester 03/ASP.NET CORE MVC/Projects/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/Semester 03/ASP.NET CORE MVC/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Semester 03/ASP.NET CORE MVC/Projects/2309C1/EcommerceWebApp/EcommerceWebApp/Views/_ViewImports.cshtml]
+[Z:/Semester 03/ASP.NET CORE MVC/2309C1/EcommerceWebApp/EcommerceWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Semester 03/ASP.NET CORE MVC/Projects/2309C1/EcommerceWebApp/EcommerceWebApp/Views/_ViewStart.cshtml]
+[Z:/Semester 03/ASP.NET CORE MVC/2309C1/EcommerceWebApp/EcommerceWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Semester 03/ASP.NET CORE MVC/Projects/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Shared/_Layout.cshtml]
+[Z:/Semester 03/ASP.NET CORE MVC/2309C1/EcommerceWebApp/EcommerceWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2iswsdegf5
