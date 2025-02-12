@@ -9,7 +9,7 @@ CREATE TABLE Students (
 	StudentEmail VARCHAR(255) NOT NULL,
 );
 
-INSERT INTO Students VALUES(1, 'Maaz Ul Haq', 22, 'maaz@gmail.com');
-INSERT INTO Students VALUES(2, 'Muhammad Saad', 21, 'saad@gmail.com');
-INSERT INTO Students VALUES(3, 'Sarah Ansari', 21, 'sarah@gmail.com');
-INSERT INTO Students VALUES(4, 'Muhammad Ahmed', 21, 'ahmed@gmail.com');
+INSERT INTO Students VALUES('Maaz Ul Haq', 22, 'maaz@gmail.com');
+INSERT INTO Students VALUES('Muhammad Saad', 21, 'saad@gmail.com');
+INSERT INTO Students VALUES('Sarah Ansari', 21, 'sarah@gmail.com');
+INSERT INTO Students VALUES('Muhammad Ahmed', 21, 'ahmed@gmail.com');
