@@ -1,4 +1,6 @@
-﻿
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor accessor
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -297,17 +299,17 @@
                                 </li>
                                 <li class="nav-item dropdown user-profile">
                                     <a href="javascript:void(0)" class="nav-link dropdown-toggle " id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img src="~/assetsAdmin/img/avtar/02.jpg" alt="avtar-img">
+                                        <img src="~/images/admin/@accessor.HttpContext.Session.GetString("adminimage")" alt="avtar-img">
                                         <span class="bg-success user-status"></span>
                                     </a>
                                     <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
                                         <div class="bg-gradient px-4 py-3">
                                             <div class="d-flex align-items-center justify-content-between">
                                                 <div class="mr-1">
-                                                    <h4 class="text-white mb-0">Alice Williams</h4>
-                                                    <small class="text-white">Henry@example.com</small>
+                                                    <h4 class="text-white mb-0">@accessor.HttpContext.Session.GetString("adminusername")</h4>
+                                                    @* <small class="text-white">Henry@example.com</small> *@
                                                 </div>
-                                                <a href="#" class="text-white font-20 tooltip-wrapper" data-toggle="tooltip" data-placement="top" title="" data-original-title="Logout"> <i
+                                                <a asp-controller="Admin" asp-action="Logout" class="text-white font-20 tooltip-wrapper" data-toggle="tooltip" data-placement="top" title="" data-original-title="Logout"> <i
                                                                 class="zmdi zmdi-power"></i></a>
                                             </div>
                                         </div>

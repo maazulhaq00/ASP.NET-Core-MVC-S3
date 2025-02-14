@@ -14,7 +14,7 @@ namespace EcommerceWebApp.Controllers
         }
         public IActionResult Index()
         {
-            if(HttpContext.Session.GetString("adminusername") != null)
+            if(HttpContext.Session.GetString("adminuserid") != null)
             {
                 return View();
             }
@@ -32,13 +32,23 @@ namespace EcommerceWebApp.Controllers
             
             if(adminData != null) 
             {
+                HttpContext.Session.SetString("adminuserid", adminData.admin_id.ToString());
                 HttpContext.Session.SetString("adminusername", adminData.admin_name);
+                HttpContext.Session.SetString("adminimage", adminData.admin_image);
                 return RedirectToAction("Index");
             }
 
             ViewBag.Error = "Incorrect Email or Password";
 
             return View();
+        }
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("adminuserid");
+            HttpContext.Session.Remove("adminusername");
+            HttpContext.Session.Remove("adminimage");
+
+            return RedirectToAction("Login");
         }
     }
 }
