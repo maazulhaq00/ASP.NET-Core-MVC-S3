@@ -565,8 +565,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\admin\\4a2c7abe-c7f9-447c-8e1f-4831b83a2550_ali.jpg",
+      "PackagePath": "staticwebassets\\images\\admin\\4a2c7abe-c7f9-447c-8e1f-4831b83a2550_ali.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\admin\\63ef498e-6d88-48ec-bd7e-913f8d7feaad_alipp.jpg",
+      "PackagePath": "staticwebassets\\images\\admin\\63ef498e-6d88-48ec-bd7e-913f8d7feaad_alipp.jpg"
+    },
+    {
       "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\admin\\admin1.webp",
       "PackagePath": "staticwebassets\\images\\admin\\admin1.webp"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\admin\\cc0eb345-2406-43b2-9bb8-256babc4255a_myadmin.jpg",
+      "PackagePath": "staticwebassets\\images\\admin\\cc0eb345-2406-43b2-9bb8-256babc4255a_myadmin.jpg"
     },
     {
       "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\js\\site.js",

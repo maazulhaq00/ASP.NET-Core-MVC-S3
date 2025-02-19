@@ -10,5 +10,7 @@ namespace EcommerceWebApp.Models
         }
 
         public DbSet<Admin> tbl_admin { get; set; }
+        public DbSet<Category> tbl_category { get; set; }
+        public DbSet<Product> tbl_product { get; set; }
     }
 }

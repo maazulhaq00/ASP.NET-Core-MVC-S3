@@ -81,13 +81,10 @@ namespace EcommerceWebApp.Controllers
         public IActionResult Profile(AdminViewModel admin1)
         {
             int id = int.Parse(HttpContext.Session.GetString("adminuserid"));
-
             var admin = db.tbl_admin.Find(id);
 
             if (ModelState.IsValid)
             {
-
-
                 string fileName = admin.admin_image;
 
                 if(admin1.admin_image != null)
@@ -95,20 +92,18 @@ namespace EcommerceWebApp.Controllers
                     string folderPath = Path.Combine(env.WebRootPath, "images","admin");
                     fileName = Guid.NewGuid().ToString() +"_"+  admin1.admin_image.FileName;
                     string fullPath = Path.Combine(folderPath, fileName);
-
-                    admin1.admin_image.CopyTo(new FileStream(folderPath, FileMode.Create));
-
+                    admin1.admin_image.CopyTo(new FileStream(fullPath, FileMode.Create));
                 }
 
                 admin.admin_name = admin1.admin_name;
                 admin.admin_email = admin1.admin_email;
                 admin.admin_password = admin1.admin_password;
                 admin.admin_image = fileName;
-               
+                
+                HttpContext.Session.SetString("adminimage", fileName);
 
                 db.tbl_admin.Update(admin);
                 db.SaveChanges();
-
             }
 
             ViewBag.admin_image = admin.admin_image;

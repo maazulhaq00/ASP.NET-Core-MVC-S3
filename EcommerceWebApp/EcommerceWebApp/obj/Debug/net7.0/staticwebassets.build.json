@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2O77J4LKxbcMnZXq7l8sSpqshGlSSTZwjFNonXMoMqE=",
+  "Hash": "pf9W4uK+ArfFmVFklLoDgHpi7UnwW1ICkWBbZ37fL/0=",
   "Source": "EcommerceWebApp",
   "BasePath": "_content/EcommerceWebApp",
   "Mode": "Default",
@@ -2431,6 +2431,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\admin\\4a2c7abe-c7f9-447c-8e1f-4831b83a2550_ali.jpg",
+      "SourceId": "EcommerceWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\",
+      "BasePath": "_content/EcommerceWebApp",
+      "RelativePath": "images/admin/4a2c7abe-c7f9-447c-8e1f-4831b83a2550_ali.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\admin\\4a2c7abe-c7f9-447c-8e1f-4831b83a2550_ali.jpg"
+    },
+    {
+      "Identity": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\admin\\63ef498e-6d88-48ec-bd7e-913f8d7feaad_alipp.jpg",
+      "SourceId": "EcommerceWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\",
+      "BasePath": "_content/EcommerceWebApp",
+      "RelativePath": "images/admin/63ef498e-6d88-48ec-bd7e-913f8d7feaad_alipp.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\admin\\63ef498e-6d88-48ec-bd7e-913f8d7feaad_alipp.jpg"
+    },
+    {
       "Identity": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\admin\\admin1.webp",
       "SourceId": "EcommerceWebApp",
       "SourceType": "Discovered",
@@ -2446,6 +2480,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\admin\\admin1.webp"
+    },
+    {
+      "Identity": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\admin\\cc0eb345-2406-43b2-9bb8-256babc4255a_myadmin.jpg",
+      "SourceId": "EcommerceWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\",
+      "BasePath": "_content/EcommerceWebApp",
+      "RelativePath": "images/admin/cc0eb345-2406-43b2-9bb8-256babc4255a_myadmin.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\admin\\cc0eb345-2406-43b2-9bb8-256babc4255a_myadmin.jpg"
     },
     {
       "Identity": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\js\\site.js",
