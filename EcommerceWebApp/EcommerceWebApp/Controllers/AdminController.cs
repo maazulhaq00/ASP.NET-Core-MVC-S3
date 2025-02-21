@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using EcommerceWebApp.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace EcommerceWebApp.Controllers
 {
@@ -110,6 +111,64 @@ namespace EcommerceWebApp.Controllers
 
             return View();
 
+        }
+        public IActionResult AddCategory()
+        {
+            if (HttpContext.Session.GetString("adminuserid") != null)
+            {
+                return View();
+            }
+            return RedirectToAction("Login");
+        }
+        [HttpPost]
+        public IActionResult AddCategory(Category c1)
+        {
+            if (HttpContext.Session.GetString("adminuserid") != null)
+            {
+                if (ModelState.IsValid)
+                {
+                    db.tbl_category.Add(c1);
+                    db.SaveChanges();
+                    return RedirectToAction("ViewCategories");
+                }
+                return View();
+            }
+            return RedirectToAction("Login");
+        }
+        public IActionResult ViewCategories()
+        {
+            if (HttpContext.Session.GetString("adminuserid") != null)
+            {
+                var categories = db.tbl_category.ToList();
+                return View(categories);
+            }
+
+            return RedirectToAction("Login");
+        }
+        public IActionResult AddProduct()
+        {
+            if (HttpContext.Session.GetString("adminuserid") != null)
+            {
+                var categoriesDB = db.tbl_category.ToList();
+                
+                var categoriesSL = new List<SelectListItem>();
+
+                foreach (var category in categoriesDB)
+                {
+                    categoriesSL.Add(
+                        new SelectListItem{
+                            Text = category.category_name,
+                            Value = category.category_id.ToString()
+                        }
+                    );
+                }
+
+                ViewBag.categoriesSL = categoriesSL;
+
+
+                return View();
+            }
+            return RedirectToAction("Login");
         }
     }
 }

@@ -6,6 +6,7 @@ namespace EcommerceWebApp.Models
     {
         [Key]
         public int category_id { get; set; }
+        [Display(Name = "Category Name")]
         public string category_name { get; set; }
 
         // Navigational Property
