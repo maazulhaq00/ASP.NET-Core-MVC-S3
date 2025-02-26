@@ -150,9 +150,7 @@ namespace EcommerceWebApp.Controllers
             if (HttpContext.Session.GetString("adminuserid") != null)
             {
                 var categoriesDB = db.tbl_category.ToList();
-                
                 var categoriesSL = new List<SelectListItem>();
-
                 foreach (var category in categoriesDB)
                 {
                     categoriesSL.Add(
@@ -162,12 +160,52 @@ namespace EcommerceWebApp.Controllers
                         }
                     );
                 }
-
                 ViewBag.categoriesSL = categoriesSL;
+                return View();
+            }
+            return RedirectToAction("Login");
+        }
+        [HttpPost]
+        public IActionResult AddProduct(ProductViewModel p1)
+        {
+            if (HttpContext.Session.GetString("adminuserid") != null)
+            {
+                if (ModelState.IsValid)
+                {
+                    string fileName = "";
+                    if(p1.product_image != null)
+                    {
+                        string folderName = Path.Combine(env.WebRootPath, "images", "products");
+                        fileName = Guid.NewGuid().ToString() + "_" + p1.product_image.FileName;
+                        string fullPath = Path.Combine(folderName, fileName);
 
+                        p1.product_image.CopyTo(new FileStream(fullPath, FileMode.Create));
+                    }
+                    Product p2 = new Product
+                    {
+                        product_name = p1.product_name,
+                        product_price = p1.product_price,
+                        product_description = p1.product_description,
+                        product_catid = p1.product_catid,
+                        product_image = fileName,
+                    };
+                    db.tbl_product.Add(p2);
+                    db.SaveChanges();
+                    return RedirectToAction("ViewProducts");
+                }
 
                 return View();
             }
+            return RedirectToAction("Login");
+        }
+        public IActionResult ViewProducts()
+        {
+            if (HttpContext.Session.GetString("adminuserid") != null)
+            {
+                var products = db.tbl_product.Include(p=>p.category).ToList();
+                return View(products);
+            }
+
             return RedirectToAction("Login");
         }
     }
