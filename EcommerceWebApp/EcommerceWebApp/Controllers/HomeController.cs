@@ -1,5 +1,6 @@
 ﻿using EcommerceWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace EcommerceWebApp.Controllers
@@ -7,10 +8,13 @@ namespace EcommerceWebApp.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly EcommContext db;
+        IWebHostEnvironment env;
+        public HomeController(ILogger<HomeController> logger, EcommContext db, IWebHostEnvironment env)
         {
             _logger = logger;
+            this.db = db;
+            this.env = env;
         }
 
         public IActionResult Index()
@@ -19,7 +23,8 @@ namespace EcommerceWebApp.Controllers
         }
         public IActionResult Shop()
         {
-            return View();
+            var products = db.tbl_product.Include(p=>p.category).ToList();
+            return View(products);
         }
         public IActionResult ShopDetails()
         {
