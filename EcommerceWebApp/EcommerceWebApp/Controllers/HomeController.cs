@@ -17,11 +17,31 @@ namespace EcommerceWebApp.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        public IActionResult Shop()
         {
             return View();
         }
+        public IActionResult ShopDetails()
+        {
+            return View();
+        }
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        public IActionResult ShoppingCart()
+        {
+            return View();
+        }
+        public IActionResult CheckOut()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -50,7 +50,6 @@ Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug
 Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\staticwebassets.pack.json
 Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\staticwebassets.build.json
 Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\staticwebassets.development.json
-Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\scopedcss\bundle\EcommerceWebApp.styles.css
 Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\scopedcss\projectbundle\EcommerceWebApp.bundle.scp.css
 Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\EcommerceWebApp.dll
@@ -281,3 +280,4 @@ Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\bin\Debug
 Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\EcommerceWebApp.csproj.AssemblyReference.cache
 Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\EcommerceWebApp.csproj.CopyComplete
+Z:\Semester 03\ASP.NET CORE MVC\2309C1\EcommerceWebApp\EcommerceWebApp\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutWeb.cshtml.rz.scp.css

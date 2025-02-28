@@ -557,6 +557,498 @@
       "PackagePath": "staticwebassets\\assetsAdmin\\js\\vendors.js"
     },
     {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assetsWeb\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\assetsWeb\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assetsWeb\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assetsWeb\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assetsWeb\\css\\nice-select.css"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assetsWeb\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\assetsWeb\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\css\\style.css",
+      "PackagePath": "staticwebassets\\assetsWeb\\css\\style.css"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assetsWeb\\css\\style.css.map"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assetsWeb\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\about\\about-us.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\about\\about-us.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\about\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\about\\team-1.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\about\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\about\\team-2.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\about\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\about\\team-3.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\about\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\about\\team-4.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\about\\testimonial-author.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\about\\testimonial-author.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\about\\testimonial-pic.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\about\\testimonial-pic.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\banner\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\banner\\banner-3.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\blog-9.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\blog-9.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\details\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\details\\blog-author.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\blog\\details\\blog-details.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\blog\\details\\blog-details.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\footer-logo.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\footer-logo.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\hero\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\icon\\calendar.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\icon\\calendar.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\icon\\cart.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\icon\\cart.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\icon\\compare.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\icon\\compare.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\icon\\heart.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\icon\\heart.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\icon\\search.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\icon\\search.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\instagram\\instagram-1.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\instagram\\instagram-1.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\instagram\\instagram-2.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\instagram\\instagram-2.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\instagram\\instagram-3.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\instagram\\instagram-3.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\instagram\\instagram-4.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\instagram\\instagram-4.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\instagram\\instagram-5.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\instagram\\instagram-5.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\instagram\\instagram-6.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\instagram\\instagram-6.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\logo.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\payment.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\payment.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product-sale.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product-sale.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-13.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-13.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-14.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-14.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shop-details\\details-payment.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shop-details\\details-payment.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shop-details\\product-big-2.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shop-details\\product-big-2.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shop-details\\product-big-3.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shop-details\\product-big-3.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shop-details\\product-big-4.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shop-details\\product-big-4.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shop-details\\product-big.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shop-details\\product-big.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shop-details\\thumb-1.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shop-details\\thumb-1.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shop-details\\thumb-2.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shop-details\\thumb-2.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shop-details\\thumb-3.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shop-details\\thumb-3.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shop-details\\thumb-4.png",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shop-details\\thumb-4.png"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shopping-cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shopping-cart\\cart-1.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shopping-cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shopping-cart\\cart-2.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shopping-cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shopping-cart\\cart-3.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\img\\shopping-cart\\cart-4.jpg",
+      "PackagePath": "staticwebassets\\assetsWeb\\img\\shopping-cart\\cart-4.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\main.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\main.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assetsWeb\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_about.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_about.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_base.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_base.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_blog-details.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_blog-sidebar.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_blog-sidebar.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_blog.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_checkout.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_checkout.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_contact.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_footer.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_header.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_header.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_hero.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_hero.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_home-page.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_home-page.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_product.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_product.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_responsive.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_responsive.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_shop-details.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_shop-details.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_shop.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_shop.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_shopping-cart.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_shopping-cart.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\_variable.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\_variable.scss"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\assetsWeb\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\assetsWeb\\sass\\style.scss"
+    },
+    {
       "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -579,6 +1071,10 @@
     {
       "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\admin\\cc0eb345-2406-43b2-9bb8-256babc4255a_myadmin.jpg",
       "PackagePath": "staticwebassets\\images\\admin\\cc0eb345-2406-43b2-9bb8-256babc4255a_myadmin.jpg"
+    },
+    {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\products\\1d013090-4098-4639-a5f4-a05b8cd9a10e_xoimi_myshop-pk-3_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\1d013090-4098-4639-a5f4-a05b8cd9a10e_xoimi_myshop-pk-3_1.jpg"
     },
     {
       "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\js\\site.js",
