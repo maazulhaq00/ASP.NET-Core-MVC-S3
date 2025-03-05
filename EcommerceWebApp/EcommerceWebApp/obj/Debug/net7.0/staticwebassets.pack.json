@@ -1077,6 +1077,10 @@
       "PackagePath": "staticwebassets\\images\\products\\1d013090-4098-4639-a5f4-a05b8cd9a10e_xoimi_myshop-pk-3_1.jpg"
     },
     {
+      "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\products\\68573e34-0c65-47cf-939b-d91b1af5110f_InfinixZero405G-b.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\68573e34-0c65-47cf-939b-d91b1af5110f_InfinixZero405G-b.jpg"
+    },
+    {
       "Id": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

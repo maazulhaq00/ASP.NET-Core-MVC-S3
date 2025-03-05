@@ -16,7 +16,25 @@ namespace EcommerceWebApp.Controllers
             this.db = db;
             this.env = env;
         }
-
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult SignUp(Customer customer)
+        {
+            if (ModelState.IsValid)
+            {
+                db.tbl_customer.Add(customer);
+                db.SaveChanges();
+                return RedirectToAction("Login");
+            }
+            return View();
+        }
+        public IActionResult Login()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
@@ -41,6 +59,17 @@ namespace EcommerceWebApp.Controllers
         public IActionResult ShoppingCart()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult ShoppingCart(int qty, int pid)
+        {
+            if (HttpContext.Session.GetString("customeruserid") != null)
+            {
+                // Add to Cart
+                return View();
+            }
+            
+            return RedirectToAction("Login");
         }
         public IActionResult CheckOut()
         {
