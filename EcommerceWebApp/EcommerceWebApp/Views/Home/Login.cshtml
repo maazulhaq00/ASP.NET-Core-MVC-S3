@@ -22,6 +22,11 @@
                 <div class="contact__form">
                     <form method="post">
                         <div class="row">
+                            @if (ViewBag.LoginError != null)
+                            {
+                                <p style="color:red">@ViewBag.LoginError</p>
+                            }
+
                             <div class="col-lg-6">
                                 <input asp-for="customer_email" placeholder="Email">
                             </div>

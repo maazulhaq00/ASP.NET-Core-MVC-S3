@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor accessor
+
+<!DOCTYPE html>
 <html lang="zxx">
 
 <head>
@@ -72,8 +75,19 @@
                     <div class="col-lg-6 col-md-5">
                         <div class="header__top__right">
                             <div class="header__top__links">
-                                <a href="#">Sign in</a>
-                                <a href="#">FAQs</a>
+                                @if (accessor.HttpContext.Session.GetString("customeruserid") != null)
+                                {
+                                    <p>@accessor.HttpContext.Session.GetString("customer_name")</p>
+                                    <a asp-controller="Home" asp-action="Logout">Logout</a>
+
+                                }
+                                else
+                                {
+                                    <a asp-controller="Home" asp-action="Login">Login</a>
+                                    <a asp-controller="Home" asp-action="SignUp">Sign Up</a>
+                                }
+
+                                @* <a href="#">FAQs</a> *@
                             </div>
                             <div class="header__top__hover">
                                 <span>Usd <i class="arrow_carrot-down"></i></span>

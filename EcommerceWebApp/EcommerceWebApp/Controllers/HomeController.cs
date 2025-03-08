@@ -35,6 +35,31 @@ namespace EcommerceWebApp.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult Login(Customer c1)
+        {
+            var customer = db.tbl_customer.Where(row => 
+            row.customer_email == c1.customer_email && 
+            row.customer_password == c1.customer_password).FirstOrDefault();
+            
+            if(customer != null)
+            {
+                HttpContext.Session.SetString("customeruserid", customer.customer_id.ToString());
+                HttpContext.Session.SetString("customer_name", customer.customer_name);
+
+                return RedirectToAction("Index");
+
+            }
+            ViewBag.LoginError = "Incorrect Email or Password.";
+            return View();
+        }
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("customeruserid");
+            HttpContext.Session.Remove("customer_name");
+
+            return RedirectToAction("Login");
+        }
         public IActionResult Index()
         {
             return View();
