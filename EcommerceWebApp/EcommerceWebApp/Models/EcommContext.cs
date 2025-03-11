@@ -13,5 +13,6 @@ namespace EcommerceWebApp.Models
         public DbSet<Category> tbl_category { get; set; }
         public DbSet<Product> tbl_product { get; set; }
         public DbSet<Customer> tbl_customer { get; set; }
+        public DbSet<CartItem> tbl_cartitem { get; set; }
     }
 }

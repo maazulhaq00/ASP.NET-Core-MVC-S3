@@ -38,9 +38,7 @@ namespace EcommerceWebApp.Controllers
         [HttpPost]
         public IActionResult Login(Customer c1)
         {
-            var customer = db.tbl_customer.Where(row => 
-            row.customer_email == c1.customer_email && 
-            row.customer_password == c1.customer_password).FirstOrDefault();
+            var customer = db.tbl_customer.Where(row => row.customer_email == c1.customer_email && row.customer_password == c1.customer_password).FirstOrDefault();
             
             if(customer != null)
             {
@@ -83,6 +81,14 @@ namespace EcommerceWebApp.Controllers
         }
         public IActionResult ShoppingCart()
         {
+            if (HttpContext.Session.GetString("customeruserid") != null)
+            {
+                var cid = int.Parse(HttpContext.Session.GetString("customeruserid"));
+
+                var cartItems = db.tbl_cartitem.Where(row => row.cust_id == cid && row.order_id == 0).Include(item => item.product).ToList();
+
+                return View(cartItems);
+            }
             return View();
         }
         [HttpPost]
@@ -90,8 +96,20 @@ namespace EcommerceWebApp.Controllers
         {
             if (HttpContext.Session.GetString("customeruserid") != null)
             {
-                // Add to Cart
-                return View();
+                var cid = int.Parse(HttpContext.Session.GetString("customeruserid"));
+                
+                var cartItem = new CartItem
+                {
+                    prod_id = pid,
+                    cust_id = cid,
+                    product_quantity = qty,
+                    order_id = 0
+                };
+
+                db.tbl_cartitem.Add(cartItem);
+                db.SaveChanges();
+
+                return RedirectToAction("ShoppingCart");
             }
             
             return RedirectToAction("Login");

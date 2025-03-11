@@ -14,5 +14,9 @@ namespace EcommerceWebApp.Models
         public string customer_country { get; set; }
         public string customer_city { get; set; }
         public string customer_address { get; set; }
+
+        //Navigational Property 
+
+        public List<CartItem>? cartItems { get; set; }
     }
 }

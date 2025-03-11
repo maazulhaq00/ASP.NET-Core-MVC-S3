@@ -3,6 +3,7 @@ using EcommerceWebApp.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcommerceWebApp.Migrations
 {
     [DbContext(typeof(EcommContext))]
-    partial class EcommContextModelSnapshot : ModelSnapshot
+    [Migration("20250310061306_TblCartItemMig")]
+    partial class TblCartItemMig
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -76,7 +79,7 @@ namespace EcommerceWebApp.Migrations
 
                     b.HasIndex("prod_id");
 
-                    b.ToTable("tbl_cartitem");
+                    b.ToTable("CartItem");
                 });
 
             modelBuilder.Entity("EcommerceWebApp.Models.Category", b =>
@@ -138,7 +141,7 @@ namespace EcommerceWebApp.Migrations
 
                     b.HasKey("customer_id");
 
-                    b.ToTable("tbl_customer");
+                    b.ToTable("Customer");
                 });
 
             modelBuilder.Entity("EcommerceWebApp.Models.Product", b =>
