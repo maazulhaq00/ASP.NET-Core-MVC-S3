@@ -92,22 +92,34 @@ namespace EcommerceWebApp.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult ShoppingCart(int qty, int pid)
+        public IActionResult AddToCart(int qty, int pid)
         {
             if (HttpContext.Session.GetString("customeruserid") != null)
             {
                 var cid = int.Parse(HttpContext.Session.GetString("customeruserid"));
-                
-                var cartItem = new CartItem
-                {
-                    prod_id = pid,
-                    cust_id = cid,
-                    product_quantity = qty,
-                    order_id = 0
-                };
 
-                db.tbl_cartitem.Add(cartItem);
-                db.SaveChanges();
+                var cartItem = db.tbl_cartitem.Where(row => row.cust_id == cid && row.prod_id == pid).FirstOrDefault(); // null
+
+                if(cartItem != null)
+                {
+                    cartItem.product_quantity = cartItem.product_quantity + qty;
+
+                    db.tbl_cartitem.Update(cartItem);
+                    db.SaveChanges();
+                }
+                else
+                {
+                    cartItem = new CartItem
+                    {
+                        prod_id = pid,
+                        cust_id = cid,
+                        product_quantity = qty,
+                        order_id = 0
+                    };
+
+                    db.tbl_cartitem.Add(cartItem);
+                    db.SaveChanges();
+                }
 
                 return RedirectToAction("ShoppingCart");
             }

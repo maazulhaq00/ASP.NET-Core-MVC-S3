@@ -111,6 +111,7 @@
                                         <li><a href="#"><img src="~/assetsWeb/img/icon/search.png" alt=""></a></li>
                                     </ul>
                                 </div>
+                                @* <img src="~/images/products/@item.product_image" width="100%" /> *@
                                 <div class="product__item__text">
                                     <h5>@item.product_name</h5>
                                     <h6>@item.category.category_name</h6>
@@ -123,7 +124,8 @@
                                         <i class="fa fa-star-o"></i>
                                     </div>
                                     <h5>Rs. @item.product_price</h5>
-                                    <form method="post" asp-action="ShoppingCart"><br />
+                                    <form method="post" asp-action="AddToCart">
+                                        <br />
                                         <input class="form-controll" type="number" name="qty" placeholder="Quantity" value="1" />
                                         <input type="hidden" name="pid" value="@item.product_id" />
                                         <br /><br />
