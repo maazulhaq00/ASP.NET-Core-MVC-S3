@@ -47,7 +47,7 @@
                                 subtotal = int.Parse(item.product.product_price) * item.product_quantity;
                                 
                                 total += subtotal;
-                                total = total + subtotal;
+                                // ORtotal = total + subtotal;
                                 <tr>
                                 <td class="product__cart__item">
                                     <div class="product__cart__item__pic">
@@ -100,7 +100,7 @@
                         <li>Subtotal <span>Rs. @total</span></li>
                         <li>Total <span>Rs. @total</span></li>
                     </ul>
-                    <a href="#" class="primary-btn">Proceed to checkout</a>
+                    <a asp-controller="Home" asp-action="CheckOut" class="primary-btn">Proceed to checkout</a>
                 </div>
             </div>
         </div>

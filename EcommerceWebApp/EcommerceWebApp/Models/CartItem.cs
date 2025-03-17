@@ -10,7 +10,7 @@ namespace EcommerceWebApp.Models
         public int prod_id { get; set; }
         public int cust_id { get; set; }
         public int product_quantity { get; set; }
-        public int order_id { get; set; }
+        public int? order_id { get; set; }
 
         //Navigational Properties
         [ForeignKey("prod_id")]
@@ -18,6 +18,9 @@ namespace EcommerceWebApp.Models
 
         [ForeignKey("cust_id")]
         public Customer? customer { get; set; }
+
+        [ForeignKey("order_id")]
+        public Order? order{ get; set; }
 
     }
 }

@@ -80,16 +80,16 @@ namespace EcommerceWebApp.Controllers
             return View();
         }
         public IActionResult ShoppingCart()
-        {
+         {
             if (HttpContext.Session.GetString("customeruserid") != null)
             {
                 var cid = int.Parse(HttpContext.Session.GetString("customeruserid"));
 
-                var cartItems = db.tbl_cartitem.Where(row => row.cust_id == cid && row.order_id == 0).Include(item => item.product).ToList();
+                var cartItems = db.tbl_cartitem.Where(row => row.cust_id == cid && row.order_id == null).Include(item => item.product).ToList();
 
                 return View(cartItems);
             }
-            return View();
+            return RedirectToAction("Login");
         }
         [HttpPost]
         public IActionResult AddToCart(int qty, int pid)
@@ -114,7 +114,7 @@ namespace EcommerceWebApp.Controllers
                         prod_id = pid,
                         cust_id = cid,
                         product_quantity = qty,
-                        order_id = 0
+                        order_id = null
                     };
 
                     db.tbl_cartitem.Add(cartItem);
@@ -128,7 +128,44 @@ namespace EcommerceWebApp.Controllers
         }
         public IActionResult CheckOut()
         {
-            return View();
+            if (HttpContext.Session.GetString("customeruserid") != null)
+            {
+                int cid = int.Parse(HttpContext.Session.GetString("customeruserid"));
+
+                ViewBag.Customer = db.tbl_customer.Find(cid);
+                ViewBag.CartItems = db.tbl_cartitem.Where(row => row.cust_id == cid && row.order_id == null).Include(item => item.product).ToList();
+
+                return View();
+            }
+            return RedirectToAction("Login");
+        }
+        [HttpPost]
+        public IActionResult PlaceOrder(Order o1)
+        {
+            if (HttpContext.Session.GetString("customeruserid") != null)
+            {
+                if(ModelState.IsValid)
+                {
+                    db.tbl_order.Add(o1);
+                    db.SaveChanges();
+
+                    var cartItems = db.tbl_cartitem.Where(row => row.cust_id == o1.cust_id && row.order_id == null).ToList();
+
+                    foreach(var item in cartItems)
+                    {
+                        item.order_id = o1.order_id;
+
+                        db.tbl_cartitem.Update(item);
+                    }
+                    
+                    db.SaveChanges(true);
+
+                    return RedirectToAction("Index");
+                }
+
+                return View("CheckOut");
+            }
+            return RedirectToAction("Login");
         }
 
 
