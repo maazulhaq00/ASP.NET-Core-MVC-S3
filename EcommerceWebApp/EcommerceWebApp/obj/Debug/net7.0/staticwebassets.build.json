@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Af9N8tdqQ34m6FZyYZ9//fFldwL7AoTXOaKt3lxG/oQ=",
+  "Hash": "lL6U0+A3AC1tDctA5cDZ5Ij+h4FetXxzZEYF5ZTKNmI=",
   "Source": "EcommerceWebApp",
   "BasePath": "_content/EcommerceWebApp",
   "Mode": "Default",
@@ -4590,6 +4590,23 @@
       "OriginalItemSpec": "wwwroot\\images\\admin\\cc0eb345-2406-43b2-9bb8-256babc4255a_myadmin.jpg"
     },
     {
+      "Identity": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\products\\01bc2fd8-45ee-4868-a5b7-f4e74ac7dcf6_S7fde1c9474254f48bfeda081da8580d88.jpg_720x720q80.jpg_.webp",
+      "SourceId": "EcommerceWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\",
+      "BasePath": "_content/EcommerceWebApp",
+      "RelativePath": "images/products/01bc2fd8-45ee-4868-a5b7-f4e74ac7dcf6_S7fde1c9474254f48bfeda081da8580d88.jpg_720x720q80.jpg_.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\01bc2fd8-45ee-4868-a5b7-f4e74ac7dcf6_S7fde1c9474254f48bfeda081da8580d88.jpg_720x720q80.jpg_.webp"
+    },
+    {
       "Identity": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\products\\1d013090-4098-4639-a5f4-a05b8cd9a10e_xoimi_myshop-pk-3_1.jpg",
       "SourceId": "EcommerceWebApp",
       "SourceType": "Discovered",
@@ -4605,6 +4622,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\1d013090-4098-4639-a5f4-a05b8cd9a10e_xoimi_myshop-pk-3_1.jpg"
+    },
+    {
+      "Identity": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\products\\526b2dfc-becb-428a-bfce-7019687f7da1_S0cb0ff0e1ea04644ac73cc4698ec7273T.jpg_720x720q80.jpg_.webp",
+      "SourceId": "EcommerceWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\",
+      "BasePath": "_content/EcommerceWebApp",
+      "RelativePath": "images/products/526b2dfc-becb-428a-bfce-7019687f7da1_S0cb0ff0e1ea04644ac73cc4698ec7273T.jpg_720x720q80.jpg_.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\526b2dfc-becb-428a-bfce-7019687f7da1_S0cb0ff0e1ea04644ac73cc4698ec7273T.jpg_720x720q80.jpg_.webp"
     },
     {
       "Identity": "Z:\\Semester 03\\ASP.NET CORE MVC\\2309C1\\EcommerceWebApp\\EcommerceWebApp\\wwwroot\\images\\products\\68573e34-0c65-47cf-939b-d91b1af5110f_InfinixZero405G-b.jpg",

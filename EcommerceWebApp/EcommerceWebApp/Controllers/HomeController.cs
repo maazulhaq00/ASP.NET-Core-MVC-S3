@@ -1,4 +1,5 @@
 ﻿using EcommerceWebApp.Models;
+using EcommerceWebApp.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -9,12 +10,14 @@ namespace EcommerceWebApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly EcommContext db;
+        private readonly IEmailSender emailSender;
         IWebHostEnvironment env;
-        public HomeController(ILogger<HomeController> logger, EcommContext db, IWebHostEnvironment env)
+        public HomeController(ILogger<HomeController> logger, EcommContext db, IWebHostEnvironment env, IEmailSender emailSender)
         {
             _logger = logger;
             this.db = db;
             this.env = env;
+            this.emailSender = emailSender;
         }
         public IActionResult SignUp()
         {
@@ -98,7 +101,7 @@ namespace EcommerceWebApp.Controllers
             {
                 var cid = int.Parse(HttpContext.Session.GetString("customeruserid"));
 
-                var cartItem = db.tbl_cartitem.Where(row => row.cust_id == cid && row.prod_id == pid).FirstOrDefault(); // null
+                var cartItem = db.tbl_cartitem.Where(row => row.cust_id == cid && row.prod_id == pid && row.order_id == null).FirstOrDefault(); // null
 
                 if(cartItem != null)
                 {
@@ -140,7 +143,7 @@ namespace EcommerceWebApp.Controllers
             return RedirectToAction("Login");
         }
         [HttpPost]
-        public IActionResult PlaceOrder(Order o1)
+        public async Task<IActionResult> PlaceOrder(Order o1)
         {
             if (HttpContext.Session.GetString("customeruserid") != null)
             {
@@ -157,8 +160,16 @@ namespace EcommerceWebApp.Controllers
 
                         db.tbl_cartitem.Update(item);
                     }
-                    
+
                     db.SaveChanges(true);
+
+                    // SEND ORDER EMAILS
+
+                    var cust = db.tbl_customer.Find(o1.cust_id);
+                    var subject = "ORDER CONFIRMED";
+                    var body = $"Dear {cust.customer_name}, Your Order has been placed successfully. Thankyou for shopping with us.";
+
+                    await emailSender.SendEmailAsync(cust.customer_email, subject, body);
 
                     return RedirectToAction("Index");
                 }

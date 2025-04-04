@@ -1,4 +1,5 @@
 using EcommerceWebApp.Models;
+using EcommerceWebApp.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,7 @@ var provider = builder.Services.BuildServiceProvider();
 var config = provider.GetRequiredService<IConfiguration>();
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 builder.Services.AddDbContext<EcommContext>(item => item.UseSqlServer(config.GetConnectionString("dbcs")));
 
